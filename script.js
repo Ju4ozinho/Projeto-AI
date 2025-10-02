@@ -6,71 +6,72 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "A dieta dos brasileiros piorou: menos consumo de alimentos naturais, como frutas e vegetais, e mais de ultraprocessados. O consumo de sal e açúcar está acima do recomendado, apesar do arroz e feijão ainda serem a base da alimentação.",
+        enunciado: "Assim que saiu da escola você se depara com uma pessoa com problemas alimentares, onde ela estava acima do peso, conforme você foi andando, você se deparou com outra pessoa com disturbios alimentares, porem, de forma contraria, muito abaixo do peso. Qual o primeiro pensamento?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "Uma das maiores preocupações sobre a alimentação atual é a grande quantidade de alimentos ultraprocessados que consumimos. Eles são pobres em nutrientes e ricos em gorduras, açúcares e sódio, o que pode trazer sérios riscos à saúde a longo prazo. "
+                texto: "Isso é preocupante!",
+                afirmacao: ""
             },
             {
-                texto: "Isso não me preocupa!",
-                afirmacao: "A falta de preocupação com a alimentação pode levar a problemas de saúde no futuro. É importante refletir sobre os nossos hábitos alimentares e entender como eles afetam nosso corpo."
+                texto: "Isso é normal!",
+                afirmacao: ""
             }
         ]
     },
     {
-        enunciado: "Uma alimentação saudável fortalece o corpo, a mente e o sistema imunológico, prevenindo doenças e garantindo mais energia e longevidade.",
+        enunciado: "Com a descoberta de disturbios alimentares, foram criadas varias alternativas para quem quer mudar vida, uma professora de educação física da escola decidiu fazer uma sequência de aulas sobre saúde física e alimentação saúdavel. No fim de uma aula ela pede que você escreva um trabalho sobre o conteúdo dado em sala de aula. Qual atitude você toma?",
         alternativas: [
             {
-                texto: "Utilize uma ferramenta de busca na internet para que você fique informado sobre o assunto. É muito importante.",
-                afirmacao: "Buscar informações de fontes confiáveis é o primeiro passo para ter uma vida mais saudável."
+                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                afirmacao: ""
             },
             {
-                texto: "Escreva na guia de pesquisa do seu dispositivo e fique atento às precauções.",
-                afirmacao: "O conhecimento é a chave para a mudança. Se informar sobre a alimentação saudável pode ser o que te falta para dar o primeiro passo. "
+                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                afirmacao: ""
             }
         ]
     },
     {
-        enunciado: "Para ter uma alimentação saudável, priorize alimentos naturais como frutas, legumes e carnes magras, enquanto reduz o consumo de ultraprocessados. Beba bastante água, cozinhe mais em casa para controlar os ingredientes e não pule refeições. Comer devagar e buscar a orientação de um nutricionista também são hábitos importantes.",
+        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a saúde física impacta o futuro destas pessoas. Nesse debate, como você se posiciona?",
         alternativas: [
             {
-                texto: "Praticar exercício também é bem importante, fazer algum esporte ou até mesmo uma caminhada na rua.",
-                afirmacao: "A atividade física complementa uma boa alimentação. Ambas são essenciais para manter o corpo e a mente em equilíbrio."
+                texto: "Defende a ideia de que a nossa saúde pode criar novas oportunidades e melhorar habilidades humanas.",
+                afirmacao: ""
             },
             {
-                texto: "Me preocupo com as pessoas que perderão sua qualidade de vida por conta da sua saúde.",
-                afirmacao: "É importante cuidar da nossa saúde e da saúde dos que amamos. Compartilhe o que você aprendeu e inspire outras pessoas a terem hábitos mais saudáveis. "
+                texto: "Me preocupo com as pessoas que perderão suas qualidades de vida e defendem a importância de proteger os trabalhadores.",
+                afirmacao: ""
             }
         ]
     },
     {
-        enunciado: "Você pode mudar a sua realidade agora. O seu futuro e o tanto que você vai evoluir só dependem de você.",
+        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
         alternativas: [
             {
-                texto: "Criar um cronograma com a sua nova rotina pode te ajudar.",
-                afirmacao: "O planejamento é fundamental para alcançar qualquer objetivo. Ao criar um cronograma, você visualiza suas metas e se mantém mais motivado para segui-las."
+                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                afirmacao: ""
             },
             {
-                texto: "Crie uma rotina de acordo com a sua realidade, começando de forma fácil e evoluindo aos poucos.",
-                afirmacao: "Começar com pequenas mudanças é mais sustentável a longo prazo. Gradualmente, os novos hábitos se tornam parte da sua vida e você não se sente sobrecarregado."
+                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                afirmacao: ""
             }
         ]
     },
     {
-        enunciado: "Em 2049, João... João, aos 35 anos, sentia-se cansado e com problemas de saúde devido à sua alimentação desregrada, baseada em fast-food. Após um alerta médico, ele decidiu mudar, substituindo refrigerantes por água e preparando suas próprias refeições saudáveis. Em três meses, perdeu peso, recuperou a energia e a concentração, descobrindo que a alimentação saudável não só melhorou sua saúde física, mas também seu bem-estar geral.",
+        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
         alternativas: [
             {
-                texto: "Mudar de vida agora.",
-                afirmacao: "A história de João nos mostra que nunca é tarde para começar a cuidar de nós mesmos. O tempo é o nosso bem mais precioso e o momento de agir é agora. O futuro é reflexo das escolhas que fazemos hoje."
+                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
+                afirmacao: ""
             },
             {
-                texto: "Deixar para depois.",
-                afirmacao: "Deixar para depois pode ser arriscado. A saúde é o nosso bem mais precioso, e a história de João nos mostra que não devemos negligenciá-la. Comece hoje a dar o primeiro passo em direção a um futuro mais saudável. "
+                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
+                afirmacao: ""
             }
         ]
     },
 ];
+
 
 let atual = 0;
 let perguntaAtual;
@@ -83,7 +84,7 @@ function mostraPergunta() {
     }
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
-    caixaAlternativas.textContent = ""; // Limpa as alternativas anteriores
+    caixaAlternativas.textContent = "";
     mostraAlternativas();
 }
 
@@ -96,16 +97,17 @@ function mostraAlternativas(){
     }
 }
 
-function respostaSelecionada(opcaoSelecionada){
-    const afirmacao = opcaoSelecionada.afirmacao;
-    historiaFinal += afirmacao + " "; // Adiciona a afirmação ao texto final
+function respostaSelecionada(opcaoSelecionada) {
+    const afirmacoes = opcaoSelecionada.afirmacao;
+    historiaFinal += afirmacoes + " ";
     atual++;
     mostraPergunta();
 }
 
 function mostraResultado() {
-    caixaPrincipal.textContent = " ";
+    caixaPerguntas.textContent = "Em 2049...";
     textoResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = "";
 }
 
 mostraPergunta();
